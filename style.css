@@ -1,0 +1,36 @@
+header{
+    width: 100%;
+    display: flex;
+
+}
+.leftlink{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+.right{
+    text-align: right;
+}
+.rightlink{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+#signin{
+    background-color: rgb(113, 146, 246);
+    color: white;
+    padding: 8px 15px;
+}
+.body{
+    text-align: center;
+    margin-top: 150px;
+}
+
+button{
+    padding: 10px 15px;
+    
+}
+#magnifyingglass{
+    height: 24px;
+}
