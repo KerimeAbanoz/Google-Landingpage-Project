@@ -12,7 +12,8 @@ body {
 
 /*! HEADER  */
 .header {
-    padding: 15px;
+    padding: 20px;
+    line-height: 36px;
 }
 
 .header__left {
@@ -23,6 +24,32 @@ body {
     float: right;
 }
 
-ul li {
+header ul li {
     display: inline-block;
+}
+
+header ul li a {
+    color: black;
+    padding: 0.5rem;
+    opacity: 0.8;
+}
+
+.header__right--appicon {
+    vertical-align: middle;
+}
+.header__right--button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    width: 96px;
+    height: 36px;
+    border-radius: 4px;
+}
+
+.header__right--button:hover {
+    box-shadow: rgb(211,211,211) 3px 3px 5px;
+    cursor: pointer;
+}
+header ul li a:hover{
+    text-decoration: underline;
 }
